@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+.w-25 {
+    flex-basis: 25%;
+}
+
+
+.w-50 {
+    flex-basis: 50%;
+}
+
+.w-20 {
+    flex-basis: 20%;
+}
+
+
+
+.w-33 {
+    flex-basis: 33%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 800px;
+    row-gap: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+
+div {
+    background-color: blueviolet;
+}
+
